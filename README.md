@@ -1,2 +1,27 @@
-# pose-estimation
-A posture estimation system for preventing pressure ulcer in patients
+## pose-estimation
+병상 환자의 욕창 방지를 위한 자세 추정 시스템
+
+## 프로젝트 소개
+압전 센서와 카메라 센서를 이용하여 욕창 방지를 위한 자세 추정 시스템을 제안한다.
+
+## 개발 기간
+- 2023년 3월 2일 ~ 2023년 12월 21일
+
+## Member
+|이름|학년|전공|역할|
+|---|---|---|---|
+|팀장 : 박재용|4|제어및로봇전공|코드 작성, 결과물 보고|
+|팀원 : 김운지|4|제어및로봇전공|HW 설계 및 테스트, Model train|
+|팀원 : 최재이|4|제어및로봇전공|HW 설계 및 테스트, 하드웨어 도안|
+|팀원 : 박준영|4|제어및로봇전공|HW 설계 및 테스트, 재료 구매|
+
+## 재료 및 개발 환경
+- Sensor : DF9-B 128EA
+- MUX : 74HC4051 1EA, CD74HC4067 1EA
+- Raspberry Pi 4
+- IDE : VSCODE, pycharm
+
+## 주요 기능
+1. 센서 파싱
+2. Face Detection
+3. Pose Estimation
